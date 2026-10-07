@@ -29,24 +29,3 @@ python scripts/build_site.py work/source.json work/map.json --out outputs/study-
 ```bash
 python scripts/build_site.py examples/source.json examples/map.json --out work/example.html
 ```
-
-`work/`、`outputs/` 和用户源文件不会提交到 GitHub。发布前请确认没有将私人笔记、生成网页或提取出的图片加入仓库。
-
-## 发布到 GitHub
-
-1. 在 GitHub 新建**公开**仓库，建议命名为 `document-study-map-skill`；创建时不要勾选自动添加 README、`.gitignore` 或许可证，因为本文件夹已经包含这些文件。
-2. 在本文件夹中运行下列命令。目标仓库已按 GitHub 用户名 `Aries-AprForest` 填好：
-
-   ```bash
-   git init
-   git add .
-   git commit -m "Add document study map skill"
-   git branch -M main
-   git remote add origin https://github.com/Aries-AprForest/document-study-map-skill.git
-   git push -u origin main
-   ```
-
-3. 如果尚未登录 GitHub，`git push` 会提示你完成身份验证。也可以先解压发布包，再在仓库页面使用 **Add file → Upload files** 上传解压后的文件和子目录；不要把 ZIP 文件本身当作仓库内容上传。
-4. 在 GitHub 仓库主页检查 `SKILL.md`、`scripts/`、`assets/`、`references/` 和 `examples/` 是否完整，并确认没有个人笔记。
-
-本仓库采用 MIT 许可证。发布前可按你的偏好更换许可证。
