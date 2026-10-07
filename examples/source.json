@@ -1,0 +1,10 @@
+{
+  "format": "docx",
+  "source": "fictional-notes.docx",
+  "blocks": [
+    {"id":"b0001","kind":"text","location":"段落 1","style":"Heading 1","text":"材料基础","runs":[{"text":"材料基础","bold":true,"underline":false}]},
+    {"id":"b0002","kind":"text","location":"段落 2","style":"Normal","text":"弹性变形：卸载后能够恢复原状。","runs":[{"text":"弹性变形：","bold":true,"underline":false},{"text":"卸载后能够恢复原状。","bold":false,"underline":false}]},
+    {"id":"b0003","kind":"text","location":"段落 3","style":"Heading 1","text":"变形行为","runs":[{"text":"变形行为","bold":true,"underline":false}]},
+    {"id":"b0004","kind":"text","location":"段落 4","style":"Normal","text":"塑性变形：卸载后保留永久变形。","runs":[{"text":"塑性变形：","bold":false,"underline":true},{"text":"卸载后保留永久变形。","bold":false,"underline":false}]}
+  ]
+}

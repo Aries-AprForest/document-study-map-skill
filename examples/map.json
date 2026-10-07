@@ -1,0 +1,30 @@
+{
+  "title": "材料基础复习",
+  "project_id": "fictional-materials-demo",
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "材料基础",
+      "root": {
+        "id": "materials-root",
+        "title": "材料基础",
+        "block_ids": ["b0001"],
+        "children": [
+          {"id":"elastic","title":"弹性变形","block_ids":["b0002"],"question":"弹性变形在卸载后会怎样？"}
+        ]
+      }
+    },
+    {
+      "id": "chapter-2",
+      "title": "变形行为",
+      "root": {
+        "id": "behavior-root",
+        "title": "变形行为",
+        "block_ids": ["b0003"],
+        "children": [
+          {"id":"plastic","title":"塑性变形","block_ids":["b0004"],"question":"塑性变形在卸载后会怎样？"}
+        ]
+      }
+    }
+  ]
+}
